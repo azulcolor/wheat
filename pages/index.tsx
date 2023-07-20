@@ -1,10 +1,11 @@
-import Head from 'next/head'
-import Layout from '@/components/general/layouts/Layout'
+import Layout from "@/components/general/layouts/Layout";
+import Card from "@/components/general/card/Card"
 
 export default function Home() {
   return (
     <Layout>
-      <h1>Hola</h1>
+      <h3>Preferidos por la gente</h3>
+      <Card />
     </Layout>
-  )
+  );
 }
